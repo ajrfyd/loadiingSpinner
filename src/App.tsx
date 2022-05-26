@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import LoadingSpinner from './components/Spinner/LoadingSpinner';
+import LoadingSpinner2 from './components/Spinner/LoadingSpinner2';
 
 function App() {
   return (
     <Container>
       <LoadingSpinner />
       {/* <LoadingSpinner hasMargin/> */}
+      <LoadingSpinner2 />
     </Container>
   );
 }
