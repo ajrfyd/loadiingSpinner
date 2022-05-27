@@ -11,7 +11,6 @@ type SpanProps = {
 
 const LoadingSpinner2 = ({ hasMargin }: SpinnerProps) => {
   const dots = Array.from(new Array(5), (_,idx) => idx);
-  console.log(dots);
 
 
   return (
